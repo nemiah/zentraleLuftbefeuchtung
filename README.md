@@ -14,6 +14,8 @@ Im Internet sind Lösungen für die zentrale Luftbefeuchtung über das Lüftungs
 
 ## Teileliste (Amazon Partner-Links):
 
+Bitte die Links in einem neuen Fenster öffnen mit "Strg"/"Cmd ⌘" + Klick.
+
 Behälter:
 
 - [70L Kiste luftdicht, transparent](https://amzn.to/4fTJnAO)
@@ -33,8 +35,7 @@ Filter:
 - [Schlauchverschraubung](https://amzn.to/3BgbZ8s)
 - [Durchführung](https://amzn.to/3ZnvhAx)
 - [Kugelhahn](https://amzn.to/49pJx0l) 
-- [Lochsäge 27mm](https://amzn.to/4givuMr) 
-
+- [Lochsäge 27mm](https://amzn.to/3ZCnuQU) 
 
 Nachfüllen:
 
@@ -52,19 +53,30 @@ Luftanschluss:
 - [Bogen 160mm 90°](https://amzn.to/3ZGbZYN) 
 - [Bogen 160mm 30°](https://amzn.to/3BhAPoh) 
 - [Bogen 160mm 15°](https://amzn.to/4in4iOd) 
+- [Alu Flexrohr](https://amzn.to/3VNkv5Z) 
 - [Rohrschellen](https://amzn.to/3Zpq778) 
 - [Gewindeeinsätze](https://amzn.to/4g2ppEe) (dann können die Löcher in der Decke kleiner sein)
 - [Stockschrauben](https://amzn.to/3VqEBTj) 
 - [Dübel](https://amzn.to/4fYqzAw) 
 - [Betonbohrer](https://amzn.to/4g0zmBT) 
+- [M4 Schrauben](https://amzn.to/3ZmL9Ub) 
+- [M4 Muttern](https://amzn.to/3OIL6gq) 
+
  
  Schalldämmung:
  
  - [Schallschutz-Schaumstoff glatt](https://amzn.to/3ZnOKB7) 
  - [Pyramidenschaumstoff](https://amzn.to/49kQIad) 
 
-
 ##  Zusammenbau
+
+### Behälter vorbereiten
+
+Ok, fangen wir mit dem Behälter an. Es gilt, ein paar Löcher zu bohren:
+
+- 2 Löcher für die Luft, 
+- 1 Loch für das Frischwasser und 
+- 1 Loch für den Überlaufschutz
 
 ## Anmerkungen
 Wenn du Verbesserungsvorschläge hast, dann mach gerne ein [Issue](https://github.com/nemiah/zentraleLuftbefeuchtung/issues) dazu auf.
