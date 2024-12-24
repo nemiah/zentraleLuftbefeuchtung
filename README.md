@@ -76,7 +76,7 @@ Luftanschluss:
  Schalldämmung:
  
  - [Schallschutz-Schaumstoff glatt](https://amzn.to/3ZnOKB7) 
- - [Pyramidenschaumstoff](https://amzn.to/49kQIad) 
+ - [Pyramidenschaumstoff weiß, für die Decke](https://amzn.to/4iJKNjj) 
 
 ##  Zusammenbau
 
