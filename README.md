@@ -3,7 +3,7 @@ Wir wohnen in einem gut gedämmten Haus mit zentraler Lüftungsanlage und im Win
 
 Ich habe mehrere Jahre eine dezentrale Luftbefeuchtung in den Schlafzimmern eingesetzt. Die macht aber vergleichsweise viel Arbeit, da ich regelmäßig den Wasserstand der drei Luftbefeuchter nachsehen und eventuell nachfüllen musste. Vom Stromverbrauch mal ganz abgesehen. Daher war mir klar, dass ich langfristig eine zentrale Lösung brauche.
 
-Im Internet sind Lösungen für die zentrale Luftbefeuchtung über das Lüftungssystem verfügbar, sie waren mir aber mit mehreren tausend Euro zu teuer. Es hat mir aber bestätigt, dass das System an sich machbar ist, weswegen ich nach einem anderen Weg gesucht habe:
+Im Internet sind Lösungen für die zentrale Luftbefeuchtung über das Lüftungssystem verfügbar, sie waren mir aber mit mehreren tausend Euro plus Installation durch eine Fachfirma zu teuer. Es hat mir aber bestätigt, dass das System an sich machbar ist, weswegen ich nach einem anderen Weg gesucht habe:
 
 |  |  |  |
 |--|--|--|
@@ -33,16 +33,26 @@ Filter:
 - [Überlaufschlauch](https://amzn.to/4f5Wmy9)
 - [Schlauchschellen](https://amzn.to/49m5M7w)
 - [Schlauchverschraubung](https://amzn.to/3BgbZ8s)
-- [Durchführung](https://amzn.to/3ZnvhAx)
-- [Kugelhahn](https://amzn.to/49pJx0l) 
-- [Lochsäge 27mm](https://amzn.to/3ZCnuQU) 
+- [Durchführung](https://amzn.to/3VPSJ8P)
+- [Schlauchtülle](https://amzn.to/49UgiD7)
+- [Reduzierstück 1" auf 3/4"](https://amzn.to/41KZ6hv)
+- [Kugelhahn](https://amzn.to/49pJx0l)
+- [Lochsäge 35mm](https://amzn.to/3BA6BNE) 
 
 Nachfüllen:
 
 - [Schwimmerventil](https://amzn.to/4gbqqtm)
 - [Kugelhahn](https://amzn.to/41gkyux)
-- [2 Wege Motorkugelhahn](https://amzn.to/3BfEd32)
 - [Lochsäge 22mm](https://amzn.to/4f0L2TT) 
+
+Nachfüll-Steuerung:
+
+- [2 Wege Motorkugelhahn](https://amzn.to/3BfEd32)
+- [Raspberry Pi](https://amzn.to/3ZLa8R8)
+- [Netzteil](https://amzn.to/4gqz07O)
+- [4-Fach Relais für Raspberry Pi](https://amzn.to/4gPdJo7)
+- [Anschlussleitung](https://amzn.to/3P8nfHj)
+- [Klemmen](https://amzn.to/49TQgjs)
 
 Luftanschluss:
 
@@ -77,6 +87,33 @@ Ok, fangen wir mit dem Behälter an. Es gilt, ein paar Löcher zu bohren:
 - 2 Löcher für die Luft, 
 - 1 Loch für das Frischwasser und 
 - 1 Loch für den Überlaufschutz
+
+## Code für die Steuerung
+
+	# GPIO-Bibliothek laden
+	import RPi.GPIO as GPIO
+	import time
+
+	GPIO.setmode(GPIO.BCM)
+
+	GPIO.setup(4, GPIO.OUT)
+	GPIO.setup(26, GPIO.OUT)
+
+	GPIO.output(4, True)
+	GPIO.output(26, True)
+
+	time.sleep(60 * 20)
+
+	GPIO.output(26, False)
+
+	time.sleep(30)
+	GPIO.output(4, False)
+
+	GPIO.cleanup()
+
+Das Ganze dann zum Beispiel zweimal am Tag per cron ausführen:
+
+	0 6,18 * * * /usr/bin/python onoff.py
 
 ## Anmerkungen
 Wenn du Verbesserungsvorschläge hast, dann mach gerne ein [Issue](https://github.com/nemiah/zentraleLuftbefeuchtung/issues) dazu auf.
