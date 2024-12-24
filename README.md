@@ -46,6 +46,7 @@ Nachfüllen:
 - [Lochsäge 22mm](https://amzn.to/4f0L2TT) 
 - [Schlauch, druckfest bis 10 Bar](https://amzn.to/3ZSD75p)
 - [Schaluchschellen 1/2"](https://amzn.to/3ZOdEu5)
+- [Gewindedichtfaden](https://amzn.to/4gN6Tj0)
 
 Nachfüll-Steuerung:
 
