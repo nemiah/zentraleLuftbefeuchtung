@@ -23,15 +23,15 @@ Behälter:
 Filter:
 
 - [Filter](https://amzn.to/4gnNftT)
-- [Gewindestangen 100mm](https://amzn.to/3OIpMro) 
-- [Muttern](https://amzn.to/49lLVVM) 
+- [Gewindestangen M3 100mm](https://amzn.to/3OIpMro) 
+- [Muttern M3](https://amzn.to/49lLVVM) 
 - [Edelstahlplatte](https://amzn.to/49jSNTL)
 - [Metallbohrer 3mm](https://amzn.to/3ZFzaSI) 
 
 Überlaufschutz:
 
-- [Überlaufschlauch](https://amzn.to/4f5Wmy9)
-- [Schlauchschellen](https://amzn.to/49m5M7w)
+- [Überlaufschlauch 3/4"](https://amzn.to/4f5Wmy9)
+- [Schlauchschellen 3/4"](https://amzn.to/49m5M7w)
 - [Schlauchverschraubung](https://amzn.to/3BgbZ8s)
 - [Durchführung](https://amzn.to/3VPSJ8P)
 - [Schlauchtülle](https://amzn.to/49UgiD7)
@@ -42,8 +42,10 @@ Filter:
 Nachfüllen:
 
 - [Schwimmerventil](https://amzn.to/4gbqqtm)
-- [Kugelhahn](https://amzn.to/41gkyux)
+- [Kugelhahn 1/2"](https://amzn.to/41gkyux)
 - [Lochsäge 22mm](https://amzn.to/4f0L2TT) 
+- [Schlauch, druckfest bis 10 Bar](https://amzn.to/3ZSD75p)
+- [Schaluchschellen 1/2"](https://amzn.to/3ZOdEu5)
 
 Nachfüll-Steuerung:
 
